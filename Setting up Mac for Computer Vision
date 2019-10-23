@@ -1,0 +1,22 @@
+Setting up Mac for Computer Vision
+
+Install HomeBrew
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+Install OpenCV
+brew install opencv
+
+Install pkg-config
+brew install pkg-config
+
+View OpenCV linker flags
+pkg-config --cflags --libs opencv
+or
+pkg-config --cflags --libs path/to/opencv.pc
+path-/usr/local/Cellar/opencv/<version_number>/lib/pkgconfig/opencv.pc
+
+
+Running Code on Terminal
+g++ $(pkg-config --cflags --libs opencv) -std=c++11  yourFile.cpp -o yourFileProgram
+Run the Binary
+./yourFileProgram
