@@ -1,8 +1,10 @@
 Configuration of Xcode for OpenCv with C++
 
+recursive
 Header Search Path
 /usr/local/Cellar/opencv/4.1.2/include
 
+recursive
 Library Search
 /usr/local/Cellar/opencv/4.1.2/lib
 
