@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		31C2E7742364F1280010A38A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31C2E7732364F1280010A38A /* main.cpp */; };
-		31C2E789236778F50010A38A /* change contrast.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31C2E787236778F50010A38A /* change contrast.cpp */; };
+		31C2E78B236779730010A38A /* change_brightness.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31C2E78A236779730010A38A /* change_brightness.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,8 +27,8 @@
 		31C2E7702364F1280010A38A /* Working with Opencv */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Working with Opencv"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31C2E7732364F1280010A38A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		31C2E77A2364F1BA0010A38A /* nik.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nik.jpg; sourceTree = SOURCE_ROOT; };
-		31C2E787236778F50010A38A /* change contrast.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "change contrast.cpp"; sourceTree = "<group>"; };
-		31C2E788236778F50010A38A /* change contrast.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "change contrast.hpp"; sourceTree = "<group>"; };
+		31C2E78A236779730010A38A /* change_brightness.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = change_brightness.cpp; sourceTree = "<group>"; };
+		31C2E78C23677A620010A38A /* original.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = original.jpg; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,10 +61,10 @@
 		31C2E7722364F1280010A38A /* Working with Opencv */ = {
 			isa = PBXGroup;
 			children = (
+				31C2E78C23677A620010A38A /* original.jpg */,
 				31C2E77A2364F1BA0010A38A /* nik.jpg */,
 				31C2E7732364F1280010A38A /* main.cpp */,
-				31C2E787236778F50010A38A /* change contrast.cpp */,
-				31C2E788236778F50010A38A /* change contrast.hpp */,
+				31C2E78A236779730010A38A /* change_brightness.cpp */,
 			);
 			path = "Working with Opencv";
 			sourceTree = "<group>";
@@ -126,7 +126,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31C2E789236778F50010A38A /* change contrast.cpp in Sources */,
+				31C2E78B236779730010A38A /* change_brightness.cpp in Sources */,
 				31C2E7742364F1280010A38A /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

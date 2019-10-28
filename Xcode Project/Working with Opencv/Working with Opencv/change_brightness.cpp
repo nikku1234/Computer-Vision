@@ -13,13 +13,18 @@
 #include <opencv2/opencv.hpp>
 #include <iostream>
 
+
+//#include <highgui.h>
+#include <opencv2/imgproc/imgproc.hpp>
+#include <stdio.h>
+
 using namespace cv;
 using namespace std;
 
 int main(int argc, char** argv)
 {
     // Read the image file
-    Mat image = imread("/Users/nikhil/Documents/GitHub/Computer Vision- SLAM /Xcode Project/Working with Opencv/lena.png");
+    Mat image = imread("original.jpg");
 
     // Check for failure
     if (image.empty())
@@ -74,6 +79,15 @@ int main(int argc, char** argv)
     imshow(windowNameWithBrightnessHigh100, imageBrighnessHigh100);
     imshow(windowNameBrightnessLow50, imageBrighnessLow50);
     imshow(windowNameBrightnessLow100, imageBrighnessLow100);
+    
+    //String windowName = "The Saved Image"; //Name of the window
+   // namedWindow(windowName); // Create a window
+    imwrite("brightness/imageBrighnessHigh50.jpg", imageBrighnessHigh50);
+    imwrite("brightness/imageBrighnessHigh100.jpg", imageBrighnessHigh100);
+    imwrite("brightness/imageBrighnessLow50.jpg", imageBrighnessLow50);
+    imwrite("brightness/imageBrighnessLow100.jpg", imageBrighnessLow100);
+    
+    //imshow(windowName, image);
 
     waitKey(0); // Wait for any key stroke
 
