@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		31C2E7742364F1280010A38A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31C2E7732364F1280010A38A /* main.cpp */; };
+		31C2E783236774EB0010A38A /* working_with_web_cam.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31C2E781236774EB0010A38A /* working_with_web_cam.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +27,8 @@
 		31C2E7702364F1280010A38A /* Working with Opencv */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Working with Opencv"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31C2E7732364F1280010A38A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		31C2E77A2364F1BA0010A38A /* nik.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nik.jpg; sourceTree = SOURCE_ROOT; };
+		31C2E781236774EB0010A38A /* working_with_web_cam.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = working_with_web_cam.cpp; sourceTree = "<group>"; };
+		31C2E782236774EB0010A38A /* working_with_web_cam.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = working_with_web_cam.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 			children = (
 				31C2E77A2364F1BA0010A38A /* nik.jpg */,
 				31C2E7732364F1280010A38A /* main.cpp */,
+				31C2E781236774EB0010A38A /* working_with_web_cam.cpp */,
+				31C2E782236774EB0010A38A /* working_with_web_cam.hpp */,
 			);
 			path = "Working with Opencv";
 			sourceTree = "<group>";
@@ -121,6 +126,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31C2E783236774EB0010A38A /* working_with_web_cam.cpp in Sources */,
 				31C2E7742364F1280010A38A /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
