@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		31C2E7742364F1280010A38A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31C2E7732364F1280010A38A /* main.cpp */; };
+		31C2E794236969BA0010A38A /* Histogram Equalization.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31C2E792236969BA0010A38A /* Histogram Equalization.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,8 @@
 		31C2E7732364F1280010A38A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		31C2E77A2364F1BA0010A38A /* nik.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nik.jpg; sourceTree = SOURCE_ROOT; };
 		31C2E78C23677A620010A38A /* original.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = original.jpg; sourceTree = SOURCE_ROOT; };
+		31C2E792236969BA0010A38A /* Histogram Equalization.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Histogram Equalization.cpp"; sourceTree = "<group>"; };
+		31C2E793236969BA0010A38A /* Histogram Equalization.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "Histogram Equalization.hpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				31C2E78C23677A620010A38A /* original.jpg */,
 				31C2E77A2364F1BA0010A38A /* nik.jpg */,
 				31C2E7732364F1280010A38A /* main.cpp */,
+				31C2E792236969BA0010A38A /* Histogram Equalization.cpp */,
+				31C2E793236969BA0010A38A /* Histogram Equalization.hpp */,
 			);
 			path = "Working with Opencv";
 			sourceTree = "<group>";
@@ -124,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				31C2E7742364F1280010A38A /* main.cpp in Sources */,
+				31C2E794236969BA0010A38A /* Histogram Equalization.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
