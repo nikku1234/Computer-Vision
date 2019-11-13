@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31A38C0E237BD5FE00F09359 /* dilate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31A38C0C237BD5FE00F09359 /* dilate.cpp */; };
 		31C2E7742364F1280010A38A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31C2E7732364F1280010A38A /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		31A38C0C237BD5FE00F09359 /* dilate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dilate.cpp; sourceTree = "<group>"; };
+		31A38C0D237BD5FE00F09359 /* dilate.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = dilate.hpp; sourceTree = "<group>"; };
 		31C2E7702364F1280010A38A /* Working with Opencv */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Working with Opencv"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31C2E7732364F1280010A38A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		31C2E77A2364F1BA0010A38A /* nik.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nik.jpg; sourceTree = SOURCE_ROOT; };
@@ -62,6 +65,8 @@
 				31C2E78C23677A620010A38A /* original.jpg */,
 				31C2E77A2364F1BA0010A38A /* nik.jpg */,
 				31C2E7732364F1280010A38A /* main.cpp */,
+				31A38C0C237BD5FE00F09359 /* dilate.cpp */,
+				31A38C0D237BD5FE00F09359 /* dilate.hpp */,
 			);
 			path = "Working with Opencv";
 			sourceTree = "<group>";
@@ -123,6 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31A38C0E237BD5FE00F09359 /* dilate.cpp in Sources */,
 				31C2E7742364F1280010A38A /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
